@@ -27,7 +27,7 @@ export default function Home() {
 
       <p className='mx-5 mt-3'>Showing users for "Exampleuser"</p>
 
-      <Accordion defaultActiveKey="0" flush className='mx-5 mt-3 border-0'>
+      <Accordion defaultActiveKey="0" flush className='mx-5 mt-3 border-0 pb-5'>
         <Accordion.Item eventKey="0" className='border-0'>
           <Accordion.Header className='border my-3'>j00les</Accordion.Header>
           <Accordion.Body className='bg-danger my-2'>
