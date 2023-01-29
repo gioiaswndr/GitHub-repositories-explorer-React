@@ -26,8 +26,7 @@ function App() {
         method: 'GET',
         headers: {
           "Authorization": `Bearer ${process.env.REACT_APP_API_KEY}`,
-          "Accept": "application/vnd.github+json",
-          "X-GitHub-Api-Version": "2022-11-28"
+          "Accept": "application/vnd.github+json"
         }
       })
       setUsers(data?.items)
@@ -47,8 +46,7 @@ function App() {
         method: 'GET',
         headers: {
           "Authorization": `Bearer ${process.env.REACT_APP_API_KEY}`,
-          "Accept": "application/vnd.github+json",
-          "X-GitHub-Api-Version": "2022-11-28"
+          "Accept": "application/vnd.github+json"
         }
       })
       setRepo(data)
