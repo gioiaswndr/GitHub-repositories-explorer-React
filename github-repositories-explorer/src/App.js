@@ -87,7 +87,7 @@ function App() {
           isSearching ? <div className='d-flex justify-content-center'>
             <BarLoader
               color="#0d6efd"
-              loading={isLoading}
+              loading={isSearching}
               margin={0}
               size={30}
               speedMultiplier={1}
