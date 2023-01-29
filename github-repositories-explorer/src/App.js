@@ -17,7 +17,6 @@ function App() {
   const [isLoading, setIsloading] = useState(true)
   const [isSearching, setIsSearching] = useState(true)
   const [smShow, setSmShow] = useState(null);
-  console.log(process.env)
 
   async function fetchUser(param) {
     try {
@@ -30,7 +29,6 @@ function App() {
           "Accept": "application/vnd.github+json"
         }
       })
-      console.log(process.env.REACT_APP_API_KEY)
       setUsers(data?.items)
     } catch (error) {
       console.log(error)
